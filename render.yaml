@@ -3,6 +3,7 @@ services:
     name: servidor-zebra
     env: python
     buildCommand: ""
-    startCommand: python servidor_zebra.py
+    startCommand: python3 servidor_zebra.py
     plan: free
     autoDeploy: true
+
